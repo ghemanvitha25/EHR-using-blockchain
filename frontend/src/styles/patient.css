@@ -1,0 +1,143 @@
+/* Styles for the main container */
+.patientonly {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the patient content */
+.patient-content {
+  color: #0c0c69;
+  padding: 20px;
+  margin-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+
+/* Styles for the link container */
+.link-container {
+  position: absolute; /* Positioning the container */
+  top: 20px; /* Adjust top distance */
+  right: 20px; /* Adjust right distance */
+}
+
+/* Styles for the relations and appointments */
+.relation1,
+.appointment,.rate {
+  display: inline-flex;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the add-relations link */
+.add-relations1 {
+  text-decoration: none;
+  color: #114883;
+}
+
+.signout{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Styles for the signout link */
+.signout-link1 {
+  text-decoration: none;
+  font-weight:bold;
+  font-size:1.5rem;
+  color: #161d73;
+}
+
+
+/* PatientSignIn.css */
+.patsignin {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: Arial, sans-serif; 
+}
+.patient-sign-in-container {
+    width: 300px;
+    margin: 0px 50px 100px auto; 
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.patient-sign-in-container h2 {
+  color: #271370;
+  margin-bottom: 20px;
+}
+.patient-sign-in-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-sign-in-container input {
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    width:300px;
+}
+
+.patient-sign-in-container button {
+  padding: 10px 105px;
+  background-color: #2851ab;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  font-size: large; 
+  margin:auto;
+  width:300px;
+}
+
+.patient-sign-in-container button:hover {
+  background-color: #0e2674;
+}
+
+.register-link1 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.register-link1 a {
+  color: #114883;
+  text-decoration: none;
+}
+
+.register-link1 a:hover {
+  text-decoration: underline;
+}

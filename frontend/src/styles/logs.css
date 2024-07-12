@@ -1,0 +1,72 @@
+body.logs {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/doctor.jpg'); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  font-family: Arial, sans-serif;
+}
+
+.transactions {
+  margin-bottom: 100px;
+  text-align: center; /* Center the transaction buttons */
+}
+
+.transactions button {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #114883;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+  font-size: medium;
+}
+
+.transaction-form {
+  width: 700px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  overflow-y: auto; /* Vertical scrollbar */
+}
+
+.transaction-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.transaction-details label {
+  color: #0c0c69;
+  text-align: left;
+  display: block; /* Ensure labels are block elements */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.transaction-details input[type="text"],
+.transaction-details textarea {
+  width: 600px; /* Make input and textarea take full width of their container */
+  border-radius: 1px;
+  padding: 10px; /* Add padding for better usability */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+
+@media (min-width: 800px) {
+  .transaction-form {
+    width: 600px; /* Increase width for large screens */
+    height: 400px; /* Increase height for large screens */
+  }
+
+  .transaction-details input[type="text"],
+  .transaction-details textarea {
+    width: 500px; /* Adjust width for larger screens */
+  }
+}
+

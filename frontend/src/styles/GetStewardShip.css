@@ -1,0 +1,68 @@
+body.steward {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/doctor.jpg'); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  font-family: Arial, sans-serif;
+}
+.form-container2 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 20px;
+  margin-right: 60px ;
+}
+
+.get-engaged-nodes{
+  width: 30%;
+  height: 19%;
+  padding: 20px;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+
+.update-stewardship-status {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  margin-bottom: 40px;
+ 
+}
+
+.update-stewardship-status h3 {
+  margin-top: 0;
+  color:#0c0c69;
+}
+
+.data-container2 {
+  overflow: auto;
+}
+.data-container2 p{
+  font-size: medium;
+}
+
+.data-container2 div {
+  margin-bottom: 10px;
+}
+
+.update-stewardship-status form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.update-stewardship-status input,
+.update-stewardship-status button {
+  margin-bottom: 10px;
+  width: 400px;
+}

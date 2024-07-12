@@ -1,0 +1,25 @@
+.footer-text-center-text-white {
+  background-color: rgb(4, 4, 52); /* Background color of the footer */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding around the content */
+  text-align: center;
+  justify-content: center;
+}
+.container-mb-3 h1 {
+  font-family:'Courier New', Courier, monospace;
+  color: rgb(23, 50, 181); 
+  margin: 0;
+}
+.container-mb-3 h4 {
+  font-size:medium;
+  color: white; 
+  margin: 0;
+}
+
+.container-mb-3 i {
+  font-size: 10px; /* Font size of the icons */
+  margin: 0 10px; /* Margin between icons */
+  color: white;
+}
+
+

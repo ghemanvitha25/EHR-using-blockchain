@@ -1,0 +1,135 @@
+.doctoronly {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/doctor.jpg'); /* Add the background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff; 
+    height: 100vh;
+}
+
+/* Style for the container */
+.doctor-content {
+    max-width: 800px; /* Example max-width */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for headings */
+.doctor-content h1 {
+    color: #271370; /* Example text color */
+}
+
+/* Style for the row */
+.doctor-content .row {
+    display: flex;
+    justify-content: space-evenly; /* Distribute space evenly */
+    margin-top: 100px;
+}
+
+/* Style for individual items */
+.doctor-content .steward,
+.doctor-content .relation,
+.doctor-content .record {
+    width: 200px; /* Adjusted width */
+    height: 20%;
+    text-align: center;
+    max-width: 300px; 
+    background-color: #fff; 
+    padding: 15px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.add-relations {
+    text-decoration: none;
+    color: #114883;
+}
+
+.signout-container{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+/* Styles for the signout link */
+.signout-link {
+    text-decoration: none;
+    font-weight:bold;
+    font-size:1.5rem;
+    color: #070c3f;
+}
+
+
+/* DocSignIn.css */
+.docsignin {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/doctor.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: Arial, sans-serif; 
+}
+.signin-container {
+    width: 300px;
+    margin: 0px auto 100px 500px; 
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.signin-container h2 {
+    color: #271370;
+    margin-bottom: 20px;
+}
+
+.signin-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-container input {
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:300px;
+}
+
+.signin-container button {
+    padding: 10px 20px;
+    background-color: #2851ab;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.signin-container button:hover {
+    background-color: #0e2674;
+}
+
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #114883;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

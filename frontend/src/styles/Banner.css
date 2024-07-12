@@ -1,0 +1,58 @@
+/* Banner.css */
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-height: 500px; /* Adjust the maximum height of the images */
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 350px; /* Adjust the vertical position of the text overlay */
+  left: 50%; /* Align the text overlay to the center horizontally */
+  transform: translateX(-50%); /* Center the text overlay */
+  width: 60%; /* Adjust the width of the text overlay */
+  height: 120px;
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  background: rgba(168, 197, 209, 0.459);
+  border-radius: 12px;
+}
+
+.text-overlay h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.text-overlay p {
+  font-size: 16px;
+}

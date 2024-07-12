@@ -1,0 +1,16 @@
+.back-button-icon {
+  position: fixed;
+  top: 70px; /* Adjust top position as needed */
+  left: 30px; /* Adjust left position as needed */
+  z-index: 999; /* Ensure it's above other content */
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #141d7e; /* Adjust the color as needed */
+  cursor: pointer;
+  width: 30px;
+  height:30px;
+}
+@media (min-width: 1200px) {
+  .back-button {
+    width: 150px; /* Adjust the width for large screens */
+  }
+}

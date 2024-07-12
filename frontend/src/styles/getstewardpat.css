@@ -1,0 +1,61 @@
+body.stewardpat {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/1.jpg'); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  font-family: Arial, sans-serif;
+}
+
+.form-container7, .form-container9 {
+  margin-bottom: 50px; /* Reduce bottom margin to 50px */
+  max-width: 40vw; /* Adjust width to fit within the viewport */
+  max-height: 60vh; /* Set a maximum height to prevent overflow */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: auto; 
+}
+
+.form-container7 {
+  margin-right: 20px; /* Add right margin to create space between the two forms */
+}
+
+.form-container7 button, .form-container9 button {
+  background-color: #0c0c69;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container7 button:hover, .form-container9 button:hover {
+  background-color: #0a0a57;
+}
+
+.data-container7 {
+  margin-top: 20px;
+  overflow: auto;
+}
+.data-container9 {
+  margin-top: 20px;
+  overflow: auto;
+  height: 50vh; 
+}
+
+.data-container7 div, .data-container9 div {
+  margin-bottom: 10px;
+}
+
+.data-container7 p, .data-container9 p {
+  margin: 5px 0;
+  font-size: 16px;
+}

@@ -1,0 +1,70 @@
+body.record {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/doctor.jpg'); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  font-family: Arial, sans-serif;
+}
+
+.form-container3 {
+  background-color: #f4f4f4;
+  width: 300px;
+  max-height: 70vh;
+  padding: 30px;
+  margin: 50px auto 100px auto;
+  justify-content: flex-end;
+  border-radius: 3px;
+}
+
+.form-container3 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container3 label {
+  margin-bottom: 10px;
+}
+
+.form-container3 input[type="text"],
+.form-container3 select {
+  width: 100%; /* Ensure input fields and select elements take full width */
+  padding: 8px; /* Add padding for better spacing */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.form-container3 button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #1b1bb0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container3 button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.data-container3 {
+  max-width: 500px;
+  margin-top: 20px;
+  overflow: auto; /* Add scrollbar if content overflows */
+  max-height: 300px; /* Set maximum height for container */
+  word-wrap: break-word; /* Wrap long words */
+}
+
+.data-container3 p {
+  margin: 5px 0;
+  font-size: medium;
+}

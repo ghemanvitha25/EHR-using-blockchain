@@ -1,0 +1,112 @@
+body.patient {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/1.jpg'); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  font-family: Arial, sans-serif;
+  
+}
+.form-container-1 {
+  max-width: 800px; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  position: absolute;
+  top: 80px; /* Adjust the top position */
+  left: 300px; /* Align to the left */
+}
+
+.form-container-1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container-1 label {
+  font-weight: bold; /* Make labels bold */
+  margin-bottom: 8px; /* Add spacing below labels */
+}
+
+.form-container-1 input {
+  padding: 8px; /* Add padding to input fields */
+  margin-bottom: 16px; /* Add spacing between input fields */
+  border: 1px solid #ccc; /* Add border to input fields */
+  border-radius: 4px; /* Add rounded corners to input fields */
+  width: 300px;
+}
+
+.form-container-1 button {
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #2851ab; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Add rounded corners to the button */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.form-container-1 button:hover {
+  background-color: #0e2674; /* Change button background color on hover */
+}
+
+
+.fileupload {
+  max-width: 300px; /* Adjust width as needed */
+  position: absolute;
+  top: 150px; /* Adjust the top position */
+  right: 250px; /* Align to the right */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.fileupload h2 {
+  margin-bottom: 10px;
+}
+
+.fileupload input[type="file"],
+.fileupload input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-button,
+.get-link-button {
+  flex: 1;
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-button {
+  background-color: #2851ab;
+  color: #fff;
+}
+
+.upload-button:hover {
+  background-color: #0e2674;
+}
+
+.get-link-button {
+  background-color: #2851ab;
+  color: #fff;
+}
+
+.get-link-button:hover {
+  background-color: #182a86;
+}

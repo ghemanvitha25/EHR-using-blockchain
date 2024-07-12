@@ -1,0 +1,50 @@
+.navbar {
+  background-color: #f7f6f9; /* Change the background color as needed */
+  padding: 5px 0; /* Add padding to the top and bottom */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Set a maximum width for the navbar container */
+  margin: 0 auto; /* Center the navbar horizontally */
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline for the logo link */
+}
+
+.navbar-logo-img {
+  height: 50px; /* Decrease the height of the logo */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-title {
+  color: #2a1a84; /* Change the text color as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-left: 10px; /* Add some space between the logo and the title */
+  text-decoration: none; /* Remove underline for the title */
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.navbar-item {
+  color: #2a1a84;
+  margin-right: 20px; /* Adjust the spacing between navbar items */
+}
+
+.navbar-link {
+  color: #2a1a84; /* Change the text color as needed */
+  text-decoration: none; /* Remove underline for the links */
+  font-weight: bold;
+  font-size: larger;
+}

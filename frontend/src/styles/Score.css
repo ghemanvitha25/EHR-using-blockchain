@@ -1,0 +1,25 @@
+.styled-box {
+    background-color: rgba(39, 96, 143, 0.8); /* RGBA for transparent background */
+    border: 1px solid rgba(39, 96, 143, 0.8);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px;
+    position: absolute;
+    top: 150px; /* Adjust as needed */
+    right: 5px; /* Adjust as needed */
+    width: 150px; /* Decreased width */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .styled-box p {
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    margin: 0;
+  }
+  

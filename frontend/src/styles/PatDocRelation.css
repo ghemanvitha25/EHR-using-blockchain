@@ -1,0 +1,67 @@
+body.patdoc {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #0c0c69;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input,
+select {
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2851ab;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0e2674;
+}
+
+p {
+  margin-top: 10px;
+  font-size: x-small;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-container10 {
+  flex: 1;
+  margin-right: auto;
+  width: 60%;
+}
+
+.image-container {
+  align-self: flex-end; /* Align the image container to the right */
+  position: absolute;
+  top: 160px; /* Adjust this value to move the image down */
+  right: 20px;  
+}
+
+.image-container img {
+  width: 450px; /* Ensure the image doesn't overflow its container */
+  border-radius: 15px; /* Optional: Add rounded corners to the image */
+}
